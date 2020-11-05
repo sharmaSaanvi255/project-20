@@ -30,11 +30,9 @@ function draw() {
 
   if (deformation>180) {
     car.shapeColor="magenta";
-  } else if (deformation>100 && deformation<180)
-   {
+  } else if (deformation>100 && deformation<180){
     car.shapeColor="purple";
-  } else (deformation<100)
-   {
+  } else {
     car.shapeColor="pink";
   }
   drawSprites();
